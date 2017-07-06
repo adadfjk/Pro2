@@ -1,0 +1,5 @@
+
+/*a标签去除样*/
+a,a:link{
+    text-decoration:none;
+}

@@ -1,0 +1,114 @@
+.box{
+
+    border: 3px solid #f3f3f3;
+    width: 100%;
+    height: 90px;
+
+}
+p{
+    margin: 0px;
+    /*border: 2px solid #d5dffa;*/
+}
+
+ul{
+    margin: 0px;
+}
+.bs-example{
+    width: 144px;
+    display:none;
+    position: absolute;
+    left: 30px;
+    bottom: 100px;
+}
+
+
+.Timg{
+    width: 30px;
+    height: 30px;
+    margin-left:20px ;
+
+
+}
+.friend{
+    background:#414A73;
+    width: 100%;
+    height: 50px;
+    text-align:center;
+}
+
+.news{
+    background:#F8F8F8;
+    width: 100%;
+    height: 50px;
+    text-align:center;
+}
+
+.list-unstyled{
+    background:#282D45;
+
+
+}
+
+.friend b{
+    line-height: 50px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.list-unstyled span{
+    color: #fff;
+    line-height: 45px;
+    font-size: 12px;
+
+}
+.padding{
+    padding: 0px;
+    /*border: 1px solid #cfcfcf;*/
+}
+
+
+.chat{
+    width: 100%;
+    height: 328px;
+    /* margin: 0px 20px 0 20px; */
+    border-right: 3px solid #f3f3f3;
+    border-bottom: 3px solid #f3f3f3;
+}
+
+.list{
+    /* margin: 0px 20px 0 20px; */
+    width: 100%;
+    height: 30px;
+    border-right: 3px solid #f3f3f3;
+}
+
+
+.list img{
+    width: 18px;
+    height: 18px;
+    margin: 5px 0px 5px 15px;
+}
+.send {
+    float:right;
+    height: 100%;
+    text-align:center
+}
+.send a{
+    padding: 10px 30px;
+    color: #fff;
+    background: #398bfc;
+    border-bottom-color: #3782f0;
+    line-height:90px;
+    border-radius:10px;
+}
+
+.box1 {
+    border-radius:10px;
+    overflow: hidden;
+}
+
+#content {
+    height: 100%;
+    overflow-y:scroll;
+}

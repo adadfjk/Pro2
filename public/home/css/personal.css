@@ -1,0 +1,413 @@
+
+/* 清除浮动 */
+.clear::before,.clear::after{
+    content: "";
+    display: table;
+}
+.clear::after{
+    clear: both;
+}
+.interval {
+    margin-top:50px;
+}
+
+.personal{
+    background-color: #FAFAFA;
+    border: 1px solid #d7d7d7;
+    margin-right: 30px;
+
+}
+
+.icon {
+    text-align:center;
+    font-size: 24px;
+    margin: 35px 14px 14px 14px;
+    height: 210px;
+    border-bottom: 1px dashed #dfdfdf;
+
+}
+.icon .img {
+    width: 140px;
+    height: 140px;
+}
+
+.attention {
+    border-bottom: 1px dashed #dfdfdf;
+    height: 60px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align:center;
+}
+.friends_color {
+    color:#333;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0px;
+
+}
+.attention li {
+    float: left;
+    /* width: 125px; */
+}
+
+.attention	li:nth-child(1) {
+    border-right: 1px solid #d7d7d7;
+    font-size: 20px;
+}
+
+
+.select {
+    margin-top: 20px;
+    text-align:center;
+}
+
+.select li {
+    /* margin-bottom: 12px; */
+    line-height: 45px;
+}
+
+
+.titleline {
+    border-bottom: 1px solid #d7d7d7;
+
+
+}
+
+.titleline h3 {
+
+    font-size: 20px;
+    color: #4ba733;
+}
+
+.gform {
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #999;
+
+}
+
+.gform li {
+    line-height: 20px;
+    padding-bottom: 20px;
+    /* width: 300px; */
+}
+
+.length {
+    width: 250px;
+}
+
+.gttxt {
+    width: 400px;
+    height: 210px;
+    resize: none;
+    vertical-align:top;
+}
+
+.submit {
+    height: 29px;
+    line-height: 29px;
+    background: #88c932;
+    padding: 0 15px;
+    border: 0;
+    color: #FFF;
+    font-size: 14px;
+    margin-left: 55px;
+
+}
+
+.box {
+    display:none;
+}
+
+.active {
+    background: #88c932;
+
+}
+
+.show {
+    display:block;
+}
+
+
+
+
+
+.community a{
+    position: relative;
+    float: left;
+    height: 35px;
+    overflow: hidden;
+    width: 124px;
+    background: #FBFBFC;
+    line-height: 35px;
+    padding-left: 11px;
+    padding-right: 30px;
+    margin: 10px 15px 10px 0px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+
+}
+
+.community span{
+    line-height: 35px;
+    color: #919499;
+}
+.grade {
+    position:absolute;
+    right: 10px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    /* background: #ccc; */
+}
+
+.lv1 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position:0px -1px;
+}
+
+.lv2 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position:-24px -1px;
+}
+
+.lv3 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position:-48px -1px;
+}
+
+.lv4 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position:-72px -1px;
+}
+
+.lv5 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position:-96px -1px;
+}
+
+.lv6 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position: -120px -1px;
+}
+
+.lv7 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position: -144px -1px;
+}
+
+.lv8 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position: -168px -1px;
+}
+
+.lv9 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position: -192px -1px;
+}
+
+.lv10 {
+    background-image:url('../imgs/grade.gif');
+    background-repeat:no-repeat;
+    background-position: -216px -1px;
+}
+
+
+.more {
+    position:relative;
+    float:right;
+    right: 60px;
+}
+
+.recommend {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+.recommend img {
+    height: 90px;
+    margin-right: 10px;
+
+}
+
+.recommend div {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.recommend a {
+    font-size: 12px;
+    color: #666;
+}
+
+.recommend span {
+    line-height: 12px;
+    color: #919499;
+    font-size: 12px;
+    margin: 7px 0 10px;
+}
+
+
+.post {
+    height: 480px;
+    overflow-y:scroll;
+
+
+}
+
+.post img {
+    height: 90px;
+    margin-right: 10px;
+}
+
+.post div {
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+
+}
+
+.prop div {
+
+    float:left;
+    width: 90px;
+
+}
+
+.prop {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+    float:left;
+    position:relative;
+
+    background-image:url('../imgs/道具背景.jpg');
+
+
+}
+
+.use{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    background-image:url('../imgs/使用图.jpg');
+    background-repeat:no-repeat;
+    padding: 20px 50px;
+
+}
+
+
+
+.prop img {
+
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 2px;
+
+}
+
+#uploading {
+    display:inline-block;
+}
+
+.head p {
+    margin-bottom: 20px;
+}
+
+.head-div img{
+
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.img1 {
+    width: 140px;
+    height: 140px;
+}
+
+.img2 {
+    width: 48px;
+    height: 48px;
+}
+
+.img3 {
+    width: 24px;
+    height: 24px;
+}
+
+.head-div p{
+    margin: 0px;
+}
+
+.singer {
+    border: 1px solid #DCDBDB;
+    padding: 10px;
+    height: 45px;
+    line-height: 45px;
+    width: 290px;
+    margin: 20px auto;
+}
+
+.singer_l_cont, .singer_r_img {
+    float: left;
+}
+
+.singer_l_cont {
+    width: 145px;
+    background: url('/home/imgs/sing_per.gif') no-repeat left 12px;
+    text-indent: 23px;
+    font-size: 12px;
+}
+
+.singer_r_img {
+    display: block;
+    width: 114px;
+    height: 52px;
+    background: url('/home/imgs/sing_week.gif') right 2px no-repeat;
+    vertical-align: middle;
+    float: right;
+    *margin-bottom: -10px;
+}
+
+.singer_r_img:hover {
+    background-position: right -53px;
+    text-decoration: none;
+}
+
+.singer_r_img span {
+    margin-left: -55px;
+    line-height: 45px;
+    font-size: 16px;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif !important;
+    font-weight: 700;
+    color: #165379;
+}
+
+.singer_r_img.current {
+    background: url('/home/imgs/sing_sing.gif') no-repeat 0 2px;
+}
+.hovertreecenter{text-align:center;}
+
+.signDesc {
+    font-size:12px;
+}
+.signDesc span {
+    float:left;
+    line-height:22px;
+}
+

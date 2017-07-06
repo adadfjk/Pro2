@@ -1,0 +1,80 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.fixation{
+    position:fixed;
+    right:8%;
+    bottom:40%;
+}
+
+.message {
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    /* background-color: #ccc; */
+    text-align:center;
+    line-height: 45px;
+
+}
+
+#dd {
+    float:right;
+}
+
+#dd img {
+    width: 230px;
+}
+
+.restore-text {
+    resize: none;
+}
+
+.invitation {
+    border: 1px solid #E5E5E5;
+    position:fixed;
+    right:11.5%;
+    bottom:4%;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    border-radius:5px;
+
+    display:none;
+
+}
+
+.invitation-b {
+    line-height: 40px;
+    margin-right: 16px;
+    font-size: 14px;
+    color: #E5E5E5;
+
+
+}
+#inputs {
+    display: inline-block;
+}
+
+.margin {
+    margin-bottom: 10px;
+}
+
+#button {
+    float:right;
+    padding: 5px 15px 5px 15px;
+    background: #2a7dfa;
+    border-bottom-color: #2663bf;
+    color: #fff;
+    border: 0px;
+    border-radius:5px;
+}
+
+#close {
+    float:right;
+    background:url('../imgs/guanbi.png') no-repeat right top;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}

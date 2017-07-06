@@ -1,0 +1,60 @@
+
+.nav {
+    height: 85px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+
+}
+
+.logo {
+    height: 35px;
+}
+
+.nav div {
+    float:left;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.nav li {
+    float:left;
+    height: 35px;
+    margin-right: 1px;
+    text-align:center;
+}
+
+
+
+.nav a {
+    line-height: 35px;
+    padding: 10px 30px;
+    color: #4ba733;
+
+}
+
+#home {
+    background-color:#85c155;
+
+}
+#home a {
+    color: #FFF;
+}
+
+.nav .login {
+    float:right;
+}
+
+.login a{
+    padding:10px 5px;
+}
+
+/* 标记线 */
+.wire {
+    width: 2000px;
+    border-bottom: 1px solid #d7d7d7;
+    margin:0 auto;
+}
